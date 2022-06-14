@@ -355,6 +355,7 @@ typedef void (*dispatcher_t)(uiohook_event *const);
 // End Sun keyboards
 
 #define VC_UNDEFINED                             0x0000    // KeyCode Unknown
+#define VC_POWER_OFF                             0x00FF    // SP51 POWER off
 
 #define CHAR_UNDEFINED                           0xFFFF    // CharCode Unknown
 /* End Virtual Key Codes */
