@@ -287,7 +287,7 @@ static const uint16_t keycode_scancode_table[][2] = {
     /* 252 */ { VC_UNDEFINED,         0x0000                 }, // 0xFC VK_NONAME              Reserved
     /* 253 */ { VC_UNDEFINED,         0x0000                 }, // 0xFD
     /* 254 */ { VC_CLEAR,             0x0000                 }, // 0xFE VK_OEM_CLEAR           Clear key
-    /* 255 */ { VC_UNDEFINED,         0x0000                 }  // 0xFE                        Unassigned
+    /* 255 */ { VC_POWER_OFF,         0x00FF                 }  // 0xFE                        SP51 power off
 };
 
 unsigned short keycode_to_scancode(DWORD vk_code, DWORD flags) {
